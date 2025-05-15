@@ -1,0 +1,67 @@
+{
+  "name": "devlog",
+  "version": "1.0.0",
+  "description": "Developer Productivity & Daily Log Tool",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "lint": "eslint src/",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "keywords": [
+    "developer",
+    "productivity",
+    "daily-log",
+    "team-management",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "@slack/web-api": "^7.9.1",
+    "@types/react-router-dom": "^5.3.3",
+    "axios": "^1.9.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "framer-motion": "^12.11.3",
+    "helmet": "^6.1.5",
+    "json2csv": "^6.0.0-alpha.2",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^7.0.3",
+    "morgan": "^1.10.0",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.10.1",
+    "openai": "^4.98.0",
+    "pdfkit": "^0.17.1",
+    "react-calendar-heatmap": "^1.10.0",
+    "react-router-dom": "^7.6.0",
+    "socket.io": "^4.6.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^29.5.0",
+    "mongodb-memory-server": "^8.12.2",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.7",
+    "supertest": "^6.3.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
